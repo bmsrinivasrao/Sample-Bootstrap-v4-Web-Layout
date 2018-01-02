@@ -1,0 +1,433 @@
+body,
+html {
+    font-family: FontAwesome, "OpenSans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+    overflow-x: hidden;
+}
+
+.headFont{
+    font-family: 'Aleo', Georgia, Palatino, Times New Roman, serif !important;
+}
+
+button:hover{
+cursor: pointer;
+}
+
+.nav-link{
+    color: #ECEFF1 !important;
+    border-radius: 5px; 
+}
+
+.nav-link:hover{
+    background: rgb(235, 133, 79);
+}
+
+.nav2{
+    background: url("../Images/NavBg.png") no-repeat !important;
+    background-size: 50%;
+    height: 46px;
+}
+
+.loginBtn{
+    margin-right: 6px; 
+}
+
+.noMarPad{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 280px;
+}
+
+.align-left{
+    text-align: left !important;
+}
+
+.jumbotron{
+    border-radius: 0px;
+    height: 420px;
+    background: url('../Images/family.jpeg') no-repeat center center;
+    background-size: cover;
+    margin-bottom: 0 !important;
+}
+.jumbotron .jumboText{
+    margin-left: 22px;
+    margin-top:230px; 
+    color: #fff;
+    font-size: 28px; 
+}
+
+#jumbCard{
+    margin-top: -40px;
+    width: 360px;
+}
+
+.card-header{
+    font-size: 30px;
+    color: #D87945;
+    font-weight: bold;
+}
+
+.card-title{
+    font-weight: 100;
+    color: #464542;
+}
+
+.cardT2{
+    padding-top: 50px; 
+    font-size: 36px !important;
+}
+
+.dropCss{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btnStart{
+    font-size: 20px;
+    color: #fff;
+    background: #D87945;
+}
+.btnStart:hover {
+    color: #fff;
+    background: rgb(202, 86, 23);
+}
+
+.phone{
+    margin-top: -12px;
+    margin-left: 30px;
+    width: 160px;
+}
+
+.appP{
+    margin-top: 16px;
+    padding: 0px 0px 0px 20px;
+    font-size: 18px;
+    color: #888888;
+}
+
+.icon{
+    font-size: 25px;
+}
+
+.containerPad{
+    padding: 0px 0px; 
+}
+
+
+.cardImg{
+    padding: 20px;
+    height: 200px;
+    width: 195px;
+}
+
+.cardImg2{
+    width: 350px;
+}
+
+.cardTitle{
+    color: rgb(224, 117, 71);
+    font-weight: 100;
+    font-size: 32px;
+    font-family: 'Aleo', Georgia, Palatino, Times New Roman, serif !important;
+}
+.card-text{
+    font-size: 19px; 
+    color: #444444;
+}
+.myCard{
+    border-radius: 0px; 
+    border: none;
+}
+
+.myBtn1{
+    background-color: #ECEFF1;
+    color:#F57F17;
+    border: 1px solid #F57F17;
+}
+
+.myBtn1:hover{
+    background: #F57F17;
+}
+
+.myBtn2{
+    background-color: #ECEFF1;
+}
+
+#screenImg{
+    margin: 20px;
+    width: 90%;  
+    height: 280px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);  
+}
+
+#map{
+    padding: 1% 4em;
+    background-color: #ececec;
+    background-image: url(https://www.medmutual.com/MedMutual/MedMutual/Global/images/global/MM_Ohio.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 40%;
+    vertical-align: middle;
+    color: #111;
+}
+#loveOhio{
+    padding: 1% 4em;
+    background-color: #ececec;
+    background-image: url(../Images/loveOhio.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    vertical-align: middle;
+    color: #111;
+}
+
+.exploreNowBtn:hover{
+    color: #D87945 !important;
+}
+
+.breadcrumb {
+    margin-bottom: 0rem;
+}
+
+.aboutFooter{
+    padding: 30px 20px;
+}
+
+.aboutFooter h1{ 
+    text-align: left;
+    font-size: 24px;
+    color: rgb(2, 49, 40);
+}
+
+.aboutFooter a{ 
+    text-decoration: none;
+    color: #E0E0E0;
+    font-size: 16px;
+    display: block;
+    line-height: 2.0;
+}
+.aboutFooter a:hover{
+    text-decoration: underline;
+}
+
+.aboutFooter p{
+    text-align: left;
+    color: #E0E0E0; 
+    font-size: 16px;
+}
+
+.aboutFooter .social:hover{
+    background: rgba(2, 49, 40, 0.897);
+    color: #fff;
+}
+
+
+.aboutFooter span{
+    line-height: .1;
+    color: rgb(219, 153, 118);
+    font-size: 19px;
+}
+
+.aboutFooter .social{
+    margin: 10px 2px;
+    display: inline-block;
+    color: rgb(2, 49, 40);
+    background: #fff;
+    padding: 6px 11px;
+    border-radius: 50%;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.breadcrumb-item{
+    font-size: 18px;
+}
+
+.breadcrumb-item a{
+    color: #D87945 !important;
+}
+.footer p{
+    margin-left: 42%;
+}
+
+#NavCrumb{
+    border-radius: 0px; 
+    background: url("../Images/NavBg2.png") no-repeat !important;
+    background-size: 50%;
+    background-color: #ECECEC !important;
+    height: 50px;
+}
+
+.myLogo{
+    padding-right:20px;
+}
+.myLogo img{
+    width: 240px;
+    padding-right:0px;
+    margin: -6px 0px 0px 0px;
+}
+
+.breadcrumb-item.active {
+    color: rgb(19, 131, 148);
+}
+
+.arrowDiv{
+    background:rgb(19, 131, 148); 
+    padding-bottom:10px;
+    margin: 0px -15px; 
+}
+
+.arrow{
+    position: relative;
+    z-index: 4;
+    padding: 5px 14px;
+    background: #00695C;
+    color: #fff;
+    border-radius: 50%; 
+    font-size: 22px;
+    font-weight: bold; 
+    border: none;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);
+}
+.arrow:focus {
+    outline: none;
+}
+
+.arrow:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+@media (max-width:1200px){
+    #jumbCard {
+        margin-top: -330px !important;
+        width: 350px !important;
+        margin-left: 630px !important;
+    }
+
+    .jumbotron .jumboText {
+        margin-top: 190px;
+        width: 80%;
+    }
+    .phone {
+        margin-left: 10px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .searchInput {
+        width: 255px !important;
+    }
+
+    .nav2 {
+        background: #D87945 !important;
+    }
+
+    .searchBtn{
+        background: #17A2B8;
+        color: #fff;
+    }
+    .searchBtn:hover{
+        border-color: #fff;
+    }
+}
+
+@media (min-width: 600px) and (max-width:1024px)
+{
+    .navbar-collapse {
+        z-index: 3;
+    }
+
+    .mobileHide{
+        display: block !important;
+    }
+
+    #chatBtn{
+        display: none !important; 
+    }
+
+    #jumbCard {
+        margin-top: -344px !important;
+        width: 290px !important;
+        margin-left: 500px !important;
+        height: 396px;
+    }
+    .jumbotron .jumboText {
+        margin-top: 190px;
+        width: 60%;
+        margin-left: 5px;
+    }
+    .phone{
+        width: 120px;
+    }
+
+    .MobileText {
+        width: 83%;
+        margin: -155px 0px 0px 135px;
+    }
+}
+
+@media (max-width: 990px)
+{
+    
+    .navbar-collapse{
+        background: #F8F9FA !important;
+    }
+    .mobileHide{
+        display: none;
+    }
+    .nav2{
+        margin-top: -14px;
+        background: #F8F9FA !important;
+    }
+    .nav-link{
+        color: #111 !important;
+        border-radius: 5px; 
+    }
+    .nav-link:hover{
+        background: #F8F9FA !important;
+    }
+    .searchDiv{
+        margin-top: -20px;
+    }
+    .searchBtn{
+        margin-left: 10px;
+    }
+    .searchInput{
+        width: 60% !important;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 7px;
+        padding-left: 7px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .container-fluid{
+        max-width: 1500px;
+    }
+
+    .noMarPad{
+        margin: 0 auto;;
+    }
+
+    .navbarLayout 
+    {
+        width: 1530px;
+        margin-left: -15px;
+    }
+}
